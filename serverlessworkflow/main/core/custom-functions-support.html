@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Custom functions for your Kogito Serverless Workflow service :: Kogito Serverless Workflow Guides</title>
-    <meta name="generator" content="Antora 3.0.3">
+    <title>Custom functions for your SonataFlow service :: SonataFlow Guides</title>
+    <meta name="generator" content="Antora 3.1.4">
     <link rel="stylesheet" href="../../../_/css/site.css">
 <link rel="icon" href="../../../_/img/favicon.ico" type="image/x-icon">
 
@@ -24,7 +24,7 @@
                     <img src="../../../_/img/kogitoLogo_default_64px.png" height="50px" alt="Kogito logo"/>
                 </a>
                 <a class="navbar-item" href="../../..">
-                    Kogito Serverless Workflow Guides
+                    SonataFlow Guides
                 </a>
             </div>
                 <div class="navbar-item search hide-for-print">
@@ -56,7 +56,7 @@
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
   <nav class="nav-menu">
-    <h3 class="title"><a href="../index.html">Kogito Serverless Workflow Guides</a></h3>
+    <h3 class="title"><a href="../index.html">SonataFlow Guides</a></h3>
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
@@ -68,40 +68,46 @@
     <span class="nav-text">Getting Started</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../getting-started/create-your-first-workflow-service.html">Creating your first workflow service</a>
+    <a class="nav-link" href="../getting-started/create-your-first-workflow-service-with-kn-cli-and-vscode.html">Creating and running workflow projects using KN CLI and Visual Studio Code</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../getting-started/cncf-serverless-workflow-specification-support.html">CNCF Serverless Workflow specification</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../getting-started/getting-familiar-with-our-tooling.html">Getting familiar with tooling</a>
+    <a class="nav-link" href="../getting-started/create-your-first-workflow-service.html">Creating a Quarkus Workflow Project</a>
   </li>
 </ul>
   </li>
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <span class="nav-text">Core</span>
+    <span class="nav-text">Core Concepts</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="understanding-jq-expressions.html">jq expressions</a>
+    <a class="nav-link" href="cncf-serverless-workflow-specification-support.html">Serverless Workflow Specification</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="handling-events-on-workflows.html">Events</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="working-with-callbacks.html">Callbacks</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="understanding-jq-expressions.html">jq Expressions</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="understanding-workflow-error-handling.html">Error handling</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="working-with-parallelism.html">Parallelism</a>
+    <a class="nav-link" href="configuration-properties.html">Configuration</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="configuration-properties.html">Configuration properties</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="defining-an-input-schema-for-workflows.html">Input schema definition</a>
+    <a class="nav-link" href="defining-an-input-schema-for-workflows.html">Input Schema</a>
   </li>
   <li class="nav-item is-current-page" data-depth="2">
-    <a class="nav-link" href="custom-functions-support.html">Custom functions for your workflow service</a>
+    <a class="nav-link" href="custom-functions-support.html">Custom Functions</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="timeouts-support.html">Timeouts Support</a>
+    <a class="nav-link" href="timeouts-support.html">Timeouts</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="working-with-parallelism.html">Parallelism</a>
   </li>
 </ul>
   </li>
@@ -110,50 +116,29 @@
     <span class="nav-text">Tooling</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../tooling/serverless-workflow-editor/swf-editor-overview.html">Serverless Workflow editor</a>
+    <a class="nav-link" href="../tooling/serverless-workflow-editor/swf-editor-overview.html">Editor</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../tooling/serverless-workflow-editor/swf-editor-vscode-extension.html">VS Code extension for Serverless Workflow editor</a>
+    <a class="nav-link" href="../tooling/serverless-workflow-editor/swf-editor-vscode-extension.html">VS Code extension</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../tooling/serverless-workflow-editor/swf-editor-chrome-extension.html">Chrome GitHub extension for Serverless Workflow editor</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <button class="nav-item-toggle"></button>
-    <a class="nav-link" href="../tooling/quarkus-dev-ui-extension/quarkus-dev-ui-overview.html">Kogito Serverless Workflow Tools extension in Quarkus Dev UI</a>
-<ul class="nav-list">
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../tooling/quarkus-dev-ui-extension/quarkus-dev-ui-workflow-instances-page.html">Workflow Instances in Kogito Serverless Workflow Tools extension</a>
-  </li>
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../tooling/quarkus-dev-ui-extension/quarkus-dev-ui-workflow-definition-page.html">Workflow Definitions in Kogito Serverless Workflow Tools extension</a>
-  </li>
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../tooling/quarkus-dev-ui-extension/quarkus-dev-ui-custom-dashboard-page.html">Dashboards in Kogito Serverless Workflow Tools extension</a>
-  </li>
-</ul>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../tooling/kn-plugin-workflow-overview.html">Kogito Serverless Workflow plug-in for Knative CLI</a>
+    <a class="nav-link" href="../tooling/serverless-workflow-editor/swf-editor-chrome-extension.html">Chrome extension for GitHub</a>
   </li>
   <li class="nav-item" data-depth="2">
     <button class="nav-item-toggle"></button>
     <a class="nav-link" href="../tooling/serverless-logic-web-tools/serverless-logic-web-tools-overview.html">Serverless Logic Web Tools</a>
 <ul class="nav-list">
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../tooling/serverless-logic-web-tools/serverless-logic-web-tools-github-integration.html">Integrating your workflow project in GitHub using Serverless Logic Web Tools</a>
+    <a class="nav-link" href="../tooling/serverless-logic-web-tools/serverless-logic-web-tools-github-integration.html">Integration with GitHub</a>
   </li>
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../tooling/serverless-logic-web-tools/serverless-logic-web-tools-openshift-integration.html">Integrating your workflow project with OpenShift using Serverless Logic Web Tools</a>
+    <a class="nav-link" href="../tooling/serverless-logic-web-tools/serverless-logic-web-tools-openshift-integration.html">Integration with OpenShift</a>
   </li>
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../tooling/serverless-logic-web-tools/serverless-logic-web-tools-redhat-application-services-integration.html">Integrating with Red Hat OpenShift Application and Data Services</a>
+    <a class="nav-link" href="../tooling/serverless-logic-web-tools/serverless-logic-web-tools-redhat-application-services-integration.html">Integration with Service Registries</a>
   </li>
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../tooling/serverless-logic-web-tools/serverless-logic-web-tools-deploy-projects.html">Deploying your workflow projects using Serverless Logic Web Tools</a>
-  </li>
-  <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../tooling/serverless-logic-web-tools/serverless-logic-web-tools-enable-kogito-swf-visualization.html">Enabling Visualization in Serverless Logic Web Tools</a>
+    <a class="nav-link" href="../tooling/serverless-logic-web-tools/serverless-logic-web-tools-deploy-projects.html">Deployment</a>
   </li>
 </ul>
   </li>
@@ -164,40 +149,43 @@
     <span class="nav-text">Service Orchestration</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../service-orchestration/orchestration-of-openapi-based-services.html">Orchestrating the OpenAPI services</a>
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../service-orchestration/orchestration-of-openapi-based-services.html">OpenAPI</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../service-orchestration/configuring-openapi-services-endpoints.html">Advanced Configuration</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../service-orchestration/working-with-openapi-callbacks.html">Callbacks</a>
+  </li>
+</ul>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../service-orchestration/configuring-openapi-services-endpoints.html">Configuring the OpenAPI services endpoints</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../service-orchestration/orchestration-of-asyncapi-based-services.html">Orchestrating the AsyncAPI services</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../service-orchestration/orchestration-of-grpc-services.html">Orchestration of gRPC based services</a>
+    <a class="nav-link" href="../service-orchestration/orchestration-of-grpc-services.html">gRPC</a>
   </li>
 </ul>
   </li>
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <span class="nav-text">Eventing</span>
+    <span class="nav-text">Event Orchestration</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../eventing/handling-events-on-workflows.html">Event State</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../eventing/consume-producing-events-with-kafka.html">Consuming and producing events using Apache Kafka</a>
-  </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../eventing/consume-produce-events-with-knative-eventing.html">Consuming and producing events on Knative Eventing</a>
+    <a class="nav-link" href="../eventing/orchestration-of-asyncapi-based-services.html">AsyncAPI</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="../eventing/event-correlation-with-workflows.html">Event Correlation</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../eventing/working-with-callbacks.html">Callback State</a>
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Quarkus</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../eventing/consume-producing-events-with-kafka.html">Apache Kafka</a>
   </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../eventing/working-with-openapi-callbacks.html">OpenAPI Callback</a>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../eventing/consume-produce-events-with-knative-eventing.html">Knative Eventing</a>
+  </li>
+</ul>
   </li>
 </ul>
   </li>
@@ -206,28 +194,64 @@
     <span class="nav-text">Security</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../security/authention-support-for-openapi-services.html">Authentication for OpenAPI services</a>
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Client Authentication</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../security/authention-support-for-openapi-services.html">OpenAPI Authentication</a>
   </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../security/orchestrating-third-party-services-with-oauth2.html">Orchestration of third-party services using OAuth 2.0 authentication</a>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../security/orchestrating-third-party-services-with-oauth2.html">OpenAPI OAuth2</a>
+  </li>
+</ul>
   </li>
 </ul>
   </li>
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <span class="nav-text">Testing and Troubleshooting</span>
+    <span class="nav-text">Executing, Testing and Troubleshooting</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../testing-and-troubleshooting/mocking-http-cloudevents-with-wiremock.html">Mocking HTTP CloudEvents sink using WireMock</a>
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Executing and Testing Workflows</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../testing-and-troubleshooting/quarkus-dev-ui-extension/quarkus-dev-ui-overview.html">Developer UI</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../testing-and-troubleshooting/quarkus-dev-ui-extension/quarkus-dev-ui-workflow-instances-page.html">Workflow Instances</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../testing-and-troubleshooting/quarkus-dev-ui-extension/quarkus-dev-ui-workflow-definition-page.html">Workflow Definitions</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../testing-and-troubleshooting/quarkus-dev-ui-extension/quarkus-dev-ui-monitoring-page.html">Monitoring</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../testing-and-troubleshooting/quarkus-dev-ui-extension/quarkus-dev-ui-custom-dashboard-page.html">Dashboards</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../testing-and-troubleshooting/kn-plugin-workflow-overview.html">Command Line</a>
+  </li>
+</ul>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../testing-and-troubleshooting/mocking-openapi-services-with-wiremock.html">Mocking OpenAPI services using WireMock</a>
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Quarkus</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../testing-and-troubleshooting/mocking-http-cloudevents-with-wiremock.html">Mocking HTTP CloudEvents</a>
   </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../testing-and-troubleshooting/basic-integration-tests-with-restassured.html">Testing using REST Assured</a>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../testing-and-troubleshooting/mocking-openapi-services-with-wiremock.html">Mocking OpenAPI Services</a>
   </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../testing-and-troubleshooting/integration-tests-with-postgresql.html">Integration tests using PostgreSQL</a>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../testing-and-troubleshooting/basic-integration-tests-with-restassured.html">Testing with REST Assured</a>
+  </li>
+</ul>
   </li>
 </ul>
   </li>
@@ -236,10 +260,19 @@
     <span class="nav-text">Persistence</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../persistence/persistence-with-postgresql.html">Running a workflow service using PostgreSQL</a>
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Quarkus</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../persistence/persistence-with-postgresql.html">PostgreSQL Configuration</a>
   </li>
-  <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../persistence/postgresql-flyway-migration.html">Migrate your PostgreSQL database</a>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../persistence/postgresql-flyway-migration.html">PostgreSQL Database Migration</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../persistence/integration-tests-with-postgresql.html">Integration Tests with PostgreSQL</a>
+  </li>
+</ul>
   </li>
 </ul>
   </li>
@@ -255,19 +288,25 @@
     <a class="nav-link" href="../cloud/operator/install-serverless-operator.html">Installation</a>
   </li>
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../cloud/operator/developing-workflows.html">Developing Workflows</a>
+    <a class="nav-link" href="../cloud/operator/developing-workflows.html">Development Mode</a>
   </li>
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../cloud/operator/configuring-workflows.html">Configuring Workflows</a>
+    <a class="nav-link" href="../cloud/operator/referencing-resource-files.html">Referencing Workflow Resources</a>
   </li>
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../cloud/operator/workflow-status-conditions.html">Workflows Status</a>
+    <a class="nav-link" href="../cloud/operator/configuring-workflows.html">Configuration</a>
   </li>
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../cloud/operator/build-and-deploy-workflows.html">Building and Deploying Workflows</a>
+    <a class="nav-link" href="../cloud/operator/build-and-deploy-workflows.html">Building and Deploying Workflow Images</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../cloud/operator/workflow-status-conditions.html">Custom Resource Status</a>
   </li>
   <li class="nav-item" data-depth="3">
     <a class="nav-link" href="../cloud/operator/known-issues.html">Known Issues</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../cloud/operator/migration-guide.html">Migration Guide</a>
   </li>
 </ul>
   </li>
@@ -276,16 +315,19 @@
     <span class="nav-text">Quarkus</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../cloud/quarkus/build-workflow-image-with-quarkus-cli.html">Building workflow images using Quarkus CLI</a>
+    <a class="nav-link" href="../cloud/quarkus/build-workflow-image-with-quarkus-cli.html">Building Workflow Images</a>
   </li>
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../cloud/quarkus/deploying-on-minikube.html">Deploying Workflows on Minikube</a>
+    <a class="nav-link" href="../cloud/quarkus/deploying-on-minikube.html">Deploying on Minikube</a>
   </li>
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../cloud/quarkus/deploying-on-kubernetes.html">Deploying Workflows on Kubernetes</a>
+    <a class="nav-link" href="../cloud/quarkus/deploying-on-kubernetes.html">Deploying on Kubernetes</a>
   </li>
   <li class="nav-item" data-depth="3">
-    <a class="nav-link" href="../cloud/quarkus/kubernetes-service-discovery.html">Kubernetes service discovery</a>
+    <a class="nav-link" href="../cloud/quarkus/deploying-on-openshift.html">Deploying on OpenShift</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../cloud/quarkus/kubernetes-service-discovery.html">Service Discovery</a>
   </li>
 </ul>
   </li>
@@ -296,25 +338,43 @@
     <span class="nav-text">Integrations</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../integrations/camel-routes-integration.html">Integrating with Camel Routes</a>
+    <a class="nav-link" href="../integrations/camel-routes-integration.html">Camel Routes</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../integrations/custom-functions-knative.html">Invoking Knative services</a>
+    <a class="nav-link" href="../integrations/custom-functions-knative.html">Knative Serving</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../integrations/expose-metrics-to-prometheus.html">Exposing workflow base metrics to Prometheus</a>
+    <a class="nav-link" href="../integrations/expose-metrics-to-prometheus.html">Exposing Prometheus Metrics</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../integrations/serverless-dashboard-with-runtime-data.html">Displaying workflow data in dashboards</a>
+    <a class="nav-link" href="../integrations/serverless-dashboard-with-runtime-data.html">Displaying workflow Data in Dashboards</a>
   </li>
 </ul>
   </li>
   <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
-    <span class="nav-text">Supporting Services</span>
+    <span class="nav-text">Job Service</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../supporting-services/jobs-service.html">Job Service</a>
+    <a class="nav-link" href="../job-services/core-concepts.html">Core Concepts</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../job-services/quarkus-extensions.html">Quarkus Extensions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Data Index</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../data-index/data-index-core-concepts.html">Core concepts</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../data-index/data-index-service.html">Standalone service</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../data-index/data-index-quarkus-extension.html">Quarkus Extension</a>
   </li>
 </ul>
   </li>
@@ -323,10 +383,10 @@
     <span class="nav-text">Use Cases</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../use-cases/orchestration-based-saga-pattern.html">Saga Orchestration Example</a>
+    <a class="nav-link" href="../use-cases/orchestration-based-saga-pattern.html">Saga Orchestration</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="../use-cases/timeout-showcase-example.html">Timeout Example</a>
+    <a class="nav-link" href="../use-cases/timeout-showcase-example.html">Timeouts Showcase</a>
   </li>
 </ul>
   </li>
@@ -337,21 +397,39 @@
 </div>
 <div class="nav-panel-explore" data-panel="explore">
   <div class="context">
-    <span class="title">Kogito Serverless Workflow Guides</span>
+    <span class="title">SonataFlow Guides</span>
     <span class="version">snapshot</span>
   </div>
   <ul class="components">
     <li class="component is-current">
-      <a class="title" href="../../latest/index.html">Kogito Serverless Workflow Guides</a>
+      <a class="title" href="../../latest/index.html">SonataFlow Guides</a>
       <ul class="versions">
         <li class="version is-current">
           <a href="../index.html">snapshot</a>
         </li>
         <li class="version">
-          <a href="../../1.39.0-SNAPSHOT/index.html">1.39-RC</a>
+          <a href="../../1.44.0-SNAPSHOT/index.html">1.44-RC</a>
         </li>
         <li class="version is-latest">
-          <a href="../../latest/index.html">1.38</a>
+          <a href="../../latest/index.html">1.43</a>
+        </li>
+        <li class="version">
+          <a href="../../1.42.0.Final/index.html">1.42</a>
+        </li>
+        <li class="version">
+          <a href="../../1.41.0.Final/index.html">1.41</a>
+        </li>
+        <li class="version">
+          <a href="../../1.40.0.Final/index.html">1.40</a>
+        </li>
+        <li class="version">
+          <a href="../../1.40.0-SNAPSHOT/index.html">1.40-RC</a>
+        </li>
+        <li class="version">
+          <a href="../../1.39.0.Final/index.html">1.39</a>
+        </li>
+        <li class="version">
+          <a href="../../1.38.0.Final/index.html">1.38</a>
         </li>
         <li class="version">
           <a href="../../1.37.0.Final/index.html">1.37</a>
@@ -408,17 +486,23 @@
   <a href="../../latest/index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
-    <li><a href="../index.html">Kogito Serverless Workflow Guides</a></li>
-    <li>Core</li>
-    <li><a href="custom-functions-support.html">Custom functions for your workflow service</a></li>
+    <li><a href="../index.html">SonataFlow Guides</a></li>
+    <li>Core Concepts</li>
+    <li><a href="custom-functions-support.html">Custom Functions</a></li>
   </ul>
 </nav>
 <div class="page-versions">
   <button class="version-menu-toggle" title="Show other versions of page">snapshot</button>
   <div class="version-menu">
     <a class="version is-current" href="custom-functions-support.html">snapshot</a>
-    <a class="version" href="../../1.39.0-SNAPSHOT/core/custom-functions-support.html">1.39-RC</a>
-    <a class="version" href="../../latest/core/custom-functions-support.html">1.38</a>
+    <a class="version" href="../../1.44.0-SNAPSHOT/core/custom-functions-support.html">1.44-RC</a>
+    <a class="version" href="../../latest/core/custom-functions-support.html">1.43</a>
+    <a class="version" href="../../1.42.0.Final/core/custom-functions-support.html">1.42</a>
+    <a class="version" href="../../1.41.0.Final/core/custom-functions-support.html">1.41</a>
+    <a class="version" href="../../1.40.0.Final/core/custom-functions-support.html">1.40</a>
+    <a class="version" href="../../1.40.0-SNAPSHOT/core/custom-functions-support.html">1.40-RC</a>
+    <a class="version" href="../../1.39.0.Final/core/custom-functions-support.html">1.39</a>
+    <a class="version" href="../../1.38.0.Final/core/custom-functions-support.html">1.38</a>
     <a class="version" href="../../1.37.0.Final/core/custom-functions-support.html">1.37</a>
     <a class="version" href="../../1.36.1.Final/core/custom-functions-support.html">1.36</a>
     <a class="version" href="../../1.35.0.Final/core/custom-functions-support.html">1.35</a>
@@ -442,14 +526,14 @@
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Custom functions for your Kogito Serverless Workflow service</h1>
+<h1 class="page">Custom functions for your SonataFlow service</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>The Cloud Native Computing Foundation (CNCF) specification <a href="https://github.com/serverlessworkflow/specification/blob/0.8.x/specification.md#defining-custom-function-types">supports the <code>custom</code> function type</a>, which enables the implementations to extend the function definition capability.</p>
 </div>
 <div class="paragraph">
-<p>Kogito Serverless Workflow supports the <code>java</code> and <code>sysout</code> custom types.</p>
+<p>SonataFlow supports the <code>java</code> and <code>sysout</code> custom types.</p>
 </div>
 <div class="admonitionblock warning">
 <table>
@@ -526,7 +610,7 @@
 <h2 id="con-func-java"><a class="anchor" href="#con-func-java"></a>Java custom function</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Kogito Serverless Workflow supports the <code>java</code> functions within an Apache Maven project, in which you define your workflow service.</p>
+<p>SonataFlow supports the <code>java</code> functions within an Apache Maven project, in which you define your workflow service.</p>
 </div>
 <div class="sect2">
 <h3 id="_function_definition"><a class="anchor" href="#_function_definition"></a>Function Definition</h3>
@@ -746,7 +830,7 @@ public JsonNode myMethod(JsonNode workflowData, KogitoProcessContext context ) {
 </tr>
 <tr>
 <td><i class="conum" data-value="3"></i><b>3</b></td>
-<td><code>camel:direct:myendpoint</code> is the custom operation definition. In this definition, <code>camel</code> is the reserved keyword followed by the <code>direct</code> endpoint. <a href="https://camel.apache.org/camel-quarkus/2.14.x/reference/extensions/direct.html">Camel Direct</a> is the only supported consumer by Kogito Serverless Workflow. Finally, <code>myendpoint</code> is the endpoint URI name found in the route within your project&#8217;s context.</td>
+<td><code>camel:direct:myendpoint</code> is the custom operation definition. In this definition, <code>camel</code> is the reserved keyword followed by the <code>direct</code> endpoint. <a href="https://camel.apache.org/camel-quarkus/2.14.x/reference/extensions/direct.html">Camel Direct</a> is the only supported consumer by SonataFlow. Finally, <code>myendpoint</code> is the endpoint URI name found in the route within your project&#8217;s context.</td>
 </tr>
 </table>
 </div>
@@ -854,7 +938,7 @@ public JsonNode myMethod(JsonNode workflowData, KogitoProcessContext context ) {
 <h2 id="con-func-knative"><a class="anchor" href="#con-func-knative"></a>Knative custom function</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Kogito Serverless Workflow provides an implementation of a custom function through the <code>knative-serving</code> add-on to invoke Knative services. It allows you to have a static URI, defining a Knative service, which is used to perform HTTP requests. The Knative service defined in the URI is queried in the current Knative cluster and translated to a valid URL.</p>
+<p>SonataFlow provides an implementation of a custom function through the <code>knative-serving</code> add-on to invoke Knative services. It allows you to have a static URI, defining a Knative service, which is used to perform HTTP requests. The Knative service defined in the URI is queried in the current Knative cluster and translated to a valid URL.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -883,7 +967,7 @@ custom-function-knative-service   http://custom-function-knative-service.default
 </div>
 </div>
 <div class="paragraph">
-<p>You can declare a Kogito Serverless Workflow custom function using the Knative service name, like the following:</p>
+<p>You can declare a SonataFlow custom function using the Knative service name, like the following:</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -913,7 +997,7 @@ custom-function-knative-service   http://custom-function-knative-service.default
 </table>
 </div>
 <div class="paragraph">
-<p>The above function will send a <code>POST</code> request to the <a href="http://custom-function-knative-service.default.10.109.169.193.sslip.io/plainJsonFunction" class="bare">http://custom-function-knative-service.default.10.109.169.193.sslip.io/plainJsonFunction</a> URL. If you don&#8217;t specify a path, Kogito Serverless Workflow will use the root path (/).</p>
+<p>The above function will send a <code>POST</code> request to the <a href="http://custom-function-knative-service.default.10.109.169.193.sslip.io/plainJsonFunction" class="bare">http://custom-function-knative-service.default.10.109.169.193.sslip.io/plainJsonFunction</a> URL. If you don&#8217;t specify a path, SonataFlow will use the root path (/).</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -923,16 +1007,36 @@ custom-function-knative-service   http://custom-function-knative-service.default
 </td>
 <td class="content">
 <div class="paragraph">
-<p><code>GET</code> requests are not yet supported.</p>
+<p>You can also send <code>GET</code> requests by setting <code>method=GET</code> in <code>operation</code>. In this case, the arguments are forwarded over a query string.</p>
 </div>
 </td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="title">Example of a <code>GET</code> request</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-json hljs" data-lang="json">  "functions": [
+    {
+      "name": "greet",
+      "type": "custom",
+      "operation": "knative:services.v1.serving.knative.dev/custom-function-knative-service?path=/plainJsonFunction&amp;method=GET", <i class="conum" data-value="1"></i><b>(1)</b>
+    }
+  ]</code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td><code>GET</code> request</td>
 </tr>
 </table>
 </div>
 <div class="sect3">
 <h4 id="about-namespaces"><a class="anchor" href="#about-namespaces"></a>About namespaces</h4>
 <div class="paragraph">
-<p>Note that in the above example, you declared only the name of the service you wanted to call, but not a namespace. In this case, Kogito Serverless Workflow will look for a Knative service in the same namespace the workflow service is running.</p>
+<p>Note that in the above example, you declared only the name of the service you wanted to call, but not a namespace. In this case, SonataFlow will look for a Knative service in the same namespace the workflow service is running.</p>
 </div>
 <div class="paragraph">
 <p>In case you need to call a Knative service in a different namespace, you can declare the function as:</p>
@@ -949,7 +1053,7 @@ custom-function-knative-service   http://custom-function-knative-service.default
 </div>
 </div>
 <div class="paragraph">
-<p>In the above example, Kogito Serverless Workflow will look for the <code>custom-function-knative-service</code> in the <code>my_different_namespace</code> namespace.</p>
+<p>In the above example, SonataFlow will look for the <code>custom-function-knative-service</code> in the <code>my_different_namespace</code> namespace.</p>
 </div>
 </div>
 </div>
@@ -1008,10 +1112,10 @@ custom-function-knative-service   http://custom-function-knative-service.default
 <div class="sect3">
 <h4 id="sending-cloudevents"><a class="anchor" href="#sending-cloudevents"></a>Sending a CloudEvent</h4>
 <div class="paragraph">
-<p>By default, Kogito Serverless Workflow sends the payload of a Knative function as a regular JSON object and <code>Content-Type</code> as <code>application/json</code>. However, you can tell Kogito Serverless Workflow to send the payload as a CloudEvent. In that case, Kogito Serverless Workflow will check if the CloudEvent has all mandatory attributes set and use <code>application/cloudevents+json; charset=UTF-8</code> in <code>Content-Type</code>.</p>
+<p>By default, SonataFlow sends the payload of a Knative function as a regular JSON object and <code>Content-Type</code> as <code>application/json</code>. However, you can tell SonataFlow to send the payload as a CloudEvent. In that case, SonataFlow will check if the CloudEvent has all mandatory attributes set and use <code>application/cloudevents+json; charset=UTF-8</code> in <code>Content-Type</code>.</p>
 </div>
 <div class="paragraph">
-<p>To tell Kogito Serverless Workflow you want to send the payload as a CloudEvent, you must define your function as follows:</p>
+<p>To tell SonataFlow you want to send the payload as a CloudEvent, you must define your function as follows:</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -1028,7 +1132,7 @@ custom-function-knative-service   http://custom-function-knative-service.default
 <table>
 <tr>
 <td><i class="conum" data-value="1"></i><b>1</b></td>
-<td>Tells Kogito Serverless Workflow to send the payload as a CloudEvent. Default is <code>false</code></td>
+<td>Tells SonataFlow to send the payload as a CloudEvent. Default is <code>false</code></td>
 </tr>
 </table>
 </div>
@@ -1040,7 +1144,7 @@ custom-function-knative-service   http://custom-function-knative-service.default
 </td>
 <td class="content">
 <div class="paragraph">
-<p>If you do not set the <code>asCloudEvent</code> attribute to <code>true</code>,  you can not send a CloudEvent. If you do so, Kogito Serverless Workflow will throw an error.</p>
+<p>If you do not set the <code>asCloudEvent</code> attribute to <code>true</code>,  you can not send a CloudEvent. If you do so, SonataFlow will throw an error.</p>
 </div>
 </td>
 </tr>
@@ -1112,7 +1216,7 @@ custom-function-knative-service   http://custom-function-knative-service.default
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Kogito Serverless Workflow generates a CloudEvent ID based on the <code>source</code> and the workflow instance ID. In case you decide to set an ID, Kogito Serverless Workflow will use it and you must ensure it&#8217;s unique. Refer to the following example on how to set a CloudEvent ID:</p>
+<p>SonataFlow generates a CloudEvent ID based on the <code>source</code> and the workflow instance ID. In case you decide to set an ID, SonataFlow will use it and you must ensure it&#8217;s unique. Refer to the following example on how to set a CloudEvent ID:</p>
 </div>
 </td>
 </tr>
@@ -1150,14 +1254,14 @@ custom-function-knative-service   http://custom-function-knative-service.default
 <div class="sect3">
 <h4 id="_request_timeout"><a class="anchor" href="#_request_timeout"></a>Request timeout</h4>
 <div class="paragraph">
-<p>By default, the Knative service must respond within 10 seconds. You can use the <code>kogito.addon.knative-serving.request-timeout</code> property to configure this value.</p>
+<p>By default, the Knative service must respond within 10 seconds. You can use the <code>kogito.sw.functions.&lt;function_name&gt;.timeout</code> property to configure this value.</p>
 </div>
 <div class="paragraph">
 <p>For instance, if you want to reduce the request timeout to 5 seconds, you must add the following to your <code>application.properties</code> file:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-properties hljs" data-lang="properties">kogito.addon.knative-serving.request-timeout=5000 <i class="conum" data-value="1"></i><b>(1)</b></code></pre>
+<pre class="highlightjs highlight"><code class="language-properties hljs" data-lang="properties">kogito.sw.functions.greet.timeout=5000 <i class="conum" data-value="1"></i><b>(1)</b></code></pre>
 </div>
 </div>
 <div class="colist arabic">
@@ -1344,10 +1448,10 @@ void init () {
 <div class="ulist">
 <ul>
 <li>
-<p><a href="../getting-started/cncf-serverless-workflow-specification-support.html" class="xref page">CNCF Serverless Workflow specification</a></p>
+<p><a href="cncf-serverless-workflow-specification-support.html" class="xref page">CNCF Serverless Workflow specification</a></p>
 </li>
 <li>
-<p><a href="understanding-jq-expressions.html" class="xref page">jq expressions in Kogito Serverless Workflow</a></p>
+<p><a href="understanding-jq-expressions.html" class="xref page">jq expressions in SonataFlow</a></p>
 </li>
 </ul>
 </div>
